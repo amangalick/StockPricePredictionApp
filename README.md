@@ -1,10 +1,9 @@
 # StockPricePredictionApp
 
--Explain project 
--what the project is, why and how you tackled the problem 
--how to use it and how you can interact with the app
-
-Executive summary
-
--what models and packages you used 
+The paper investigates the prediction of stock prices, a crucial aspect of the trillion-dollar stock trading business, by exploring three predictive models: ARIMA, GRU, and LSTM. The primary objective is determining which model provides the most accurate short-term stock price predictions to enhance investment decisions and mitigate financial risks associated with stock market volatility.
+Historical stock data from three companies (Coke-a-cola, Apple, and Chevron) is utilized to conduct the experiment, covering the period from January 2018 to December 2019. The data is segmented into two-day increments to align with the predictive models' requirements. The models are trained using the Closing Stock Price as the target prediction, enabling them to forecast future stock prices. The performance of each model is assessed by calculating the Mean-Squared Error (MSE) and conducting a comparative analysis.
+The background section reviews previous research on stock market prediction, focusing on LSTM's effectiveness in capturing non-linear relationships in time series data. Building on insights from earlier studies, this research compares LSTM and ARIMA to assess their predictive efficiency for stock prices.
+The results and discussion section highlights the superior performance of the GRU model, surpassing both LSTM and ARIMA in terms of accuracy and training time. Visual representations of predictions demonstrate the GRU model's ability to closely track actual stock prices with a minimal margin of error, solidifying its position as the most effective model among the three tested.
+In conclusion, all three models successfully predict stock prices, but the GRU model is the most accurate and efficient. The findings suggest that incorporating external factors, such as political and social data, can further enhance stock price predictions in future research.
+ 
 
